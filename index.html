@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-BR"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>BOLSA PLAY</title><meta name="color-scheme" content="dark"><meta name="theme-color" content="#07080a"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-capable" content="yes"><link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📈</text></svg>"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap">
+<title>BOLSA PLAY</title><meta name="color-scheme" content="dark"><meta name="theme-color" content="#07080a"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-capable" content="yes"><link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2222%22 fill=%22%23e9b44c%22/><path d=%22M22 70 40 50 54 62 78 30%22 stroke=%22%2307080a%22 stroke-width=%2211%22 fill=none stroke-linecap=%22round%22 stroke-linejoin=%22round%22/></svg>"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8308389037082835" crossorigin="anonymous"></script>
 <script>window.adsbygoogle=window.adsbygoogle||[];var adBreak=adConfig=function(o){window.adsbygoogle.push(o)};adConfig({preloadAdBreaks:"on",sound:"off"});</script>
 <style>
@@ -9,7 +9,7 @@
 
 *{box-sizing:border-box}html,body{margin:0;height:100%;overflow:hidden;background:var(--bg);color:var(--t);font:15px/1.4 Manrope,system-ui,sans-serif}
 #app{position:fixed;inset:0;overflow:auto;background:radial-gradient(1200px 500px at 80% -10%,#1d2a22 0,transparent 60%),var(--bg)}
-@media(orientation:portrait){#app{inset:auto;top:0;left:100vw;width:100vh;width:100dvh;height:100vw;transform:rotate(90deg);transform-origin:0 0}}
+
 #tk{overflow:hidden;white-space:nowrap;background:#050607;border-bottom:1px solid var(--b);font-size:13px}#tk>div{display:inline-block;padding:7px 0;animation:mq 70s linear infinite}.ti{margin:0 22px}.ti i{font-style:normal}
 @keyframes mq{to{transform:translateX(-50%)}}@keyframes in{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}@keyframes pop{from{opacity:0;transform:translate(-50%,-46%) scale(.94)}to{opacity:1;transform:translate(-50%,-50%)}}@keyframes sl{from{opacity:0;transform:translate(-50%,20px)}}
 .dt{margin-top:12px;border:1px solid var(--b);border-radius:12px;background:var(--s)}.dt summary{cursor:pointer;padding:12px 14px;font-weight:700;list-style:none;display:flex;justify-content:space-between;align-items:center}.dt summary::-webkit-details-marker{display:none}.dt summary::after{content:"▾";color:var(--a);transition:transform .2s}.dt[open] summary::after{transform:rotate(180deg)}.dt>:not(summary){margin:0 12px 12px}
@@ -82,11 +82,41 @@ dialog{padding:24px}.toast{bottom:24px}
 .dot{margin-right:9px}
 @media(max-width:600px){.trade .px{font-size:30px}}
 
+/* Acabamento profissional */
+body{-webkit-font-smoothing:antialiased;letter-spacing:.1px}
+#app{background:radial-gradient(900px 420px at 85% -10%,#1a2620 0,transparent 60%),var(--bg)}
+header{background:#0b0d10f2;box-shadow:0 1px 0 #ffffff08}
+h1{display:flex;align-items:center}.lg{width:28px;height:28px;margin-right:10px;flex:none;filter:drop-shadow(0 4px 10px #e9b44c44)}
+nav button{color:#9aa1ad}nav button.on{background:#e9b44c1a;box-shadow:none;color:var(--a)}
+#bal{background:var(--s2);border:1px solid var(--b);padding:8px 15px;border-radius:999px;font-size:14px}
+.box{background:linear-gradient(180deg,#171b20,#12151a);box-shadow:0 1px 0 #ffffff0a inset,0 8px 24px #0005}
+.box h3{text-transform:uppercase;letter-spacing:.9px;font-size:11.5px;font-weight:700}
+th{text-transform:uppercase;letter-spacing:.8px;font-size:11px;font-weight:700}
+tr.l{transition:background .15s}tr.l:hover{background:#ffffff08}
+.btn{border-radius:11px;letter-spacing:.3px}
+.buy{background:linear-gradient(180deg,#2ccf70,#17a557);box-shadow:0 4px 14px #22c55e30,inset 0 1px #ffffff40}
+.sell{background:linear-gradient(180deg,#ee5f5f,#cc3434);box-shadow:0 4px 14px #ef444430,inset 0 1px #ffffff35}
+.tag{border-radius:999px;padding:2px 10px;background:#e9b44c14;font-weight:600}
+.av{display:inline-grid;place-items:center;width:30px;height:30px;border-radius:50%;margin-right:10px;vertical-align:middle;font:800 11px Manrope,sans-serif;font-style:normal;color:hsl(var(--h) 80% 78%);background:hsl(var(--h) 45% 20%);border:1px solid hsl(var(--h) 45% 32%)}
+.ft{max-width:1180px;margin:8px auto 0;padding:22px 24px 36px;text-align:center;color:#5d6571;font-size:12px;border-top:1px solid var(--b)}
+.ac{padding:26px!important}.ac h1{justify-content:center;margin-bottom:14px}
+::-webkit-scrollbar{width:8px;height:8px}::-webkit-scrollbar-thumb{background:#2b313a;border-radius:8px}::-webkit-scrollbar-track{background:transparent}
+input[type=file]{padding:10px}
 
+/* Retrato: sem rotação forçada, layout adaptado ao celular em pé */
+@media(max-width:700px){
+header{flex-wrap:wrap;gap:10px 12px;padding:10px 14px}
+nav{order:3;width:100%;overflow-x:auto;flex-wrap:nowrap;padding-bottom:2px}nav button{flex:none;white-space:nowrap}
+main{padding:16px 14px 40px}
+.grid{grid-template-columns:repeat(2,1fr);gap:12px}
+.box{padding:16px}.big{font-size:20px}
+.trade{padding:16px}.trade .px{font-size:28px}.cash-amount{font-size:30px}
+.ft{padding:20px 14px 30px}
+}
 
 </style></head><body>
-<div id="app"><div id="tk"></div><header><h1>BOLSA<span>PLAY</span></h1><nav id="nav"></nav><span id="bal" class="num" style="font-weight:700;white-space:nowrap"></span><button class="btn ghost" id="mb" style="padding:8px 14px">Mais ▾</button><div id="mn" hidden></div></header>
-<main id="v"></main>
+<div id="app"><div id="tk"></div><header><h1><svg class="lg" viewBox="0 0 32 32"><rect width="32" height="32" rx="8" fill="#e9b44c"/><path d="M7 22l7-8 5 5 7-9" stroke="#07080a" stroke-width="3.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>BOLSA<span>PLAY</span></h1><nav id="nav"></nav><span id="bal" class="num" style="font-weight:700;white-space:nowrap"></span><button class="btn ghost" id="mb" style="padding:8px 14px">Mais ▾</button><div id="mn" hidden></div></header>
+<main id="v"></main><footer class="ft">BOLSA PLAY · Simulador com dinheiro 100% fictício. Não constitui recomendação de investimento.</footer>
 <dialog id="dlg"></dialog><div id="au" hidden></div></div>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.min.js"></script>
 <script>
@@ -107,15 +137,15 @@ let tab="inicio",cur="PETR4",tf=5,type="c",N=60;
 const TF=[["1m",1],["5m",2],["15m",4],["1h",8],["4h",16],["1d",32],["1sem",64],["1mês",100],["1ano",150]];
 const T=[["inicio","Início"],["bolsa","Bolsa"],["acoes","Ações"],["cripto","Cripto"],["carteira","Carteira"],["cash","CASH"],["hl","Higher or Lower"],["rank","Ranking"],["perfil","Perfil"]];
 const MAIN=["inicio","bolsa","carteira","hl","rank"];
-let isAdmin=false,ANN=[],shownAnn=new Set(),admSub="overview",ADM={users:[],ann:[],logs:[],codes:[]},walletAsset="PETR4";
+let isAdmin=false,ANN=[],shownAnn=new Set(),admSub="overview",ADM={users:[],ann:[],logs:[]},walletAsset="PETR4";
 function renderMenu(){$("#nav").innerHTML=T.filter(t=>MAIN.includes(t[0])).map(([k,l])=>`<button data-k="${k}">${l}</button>`).join("");$("#mn").innerHTML=T.filter(t=>!MAIN.includes(t[0])).map(([k,l])=>`<button data-k="${k}">${l}</button>`).join("")+(isAdmin?`<button data-k="admin">Painel administrativo</button>`:"")+`<button id="fs">Tela cheia</button><button id="lg">Sair da conta</button><small>Mercado 100% fictício</small>`;$("#lg").onclick=logout;$("#fs").onclick=()=>{document.documentElement.requestFullscreen?.().then(()=>screen.orientation?.lock?.("landscape")).catch(()=>{})}}
 renderMenu();
 document.querySelector("header").onclick=e=>{const k=e.target.dataset.k;if(e.target.id=="mb"){$("#mn").hidden=!$("#mn").hidden;return}$("#mn").hidden=true;if(k){tab=k;go();if(k=="rank"||k=="hl")loadRk();if(k=="admin")loadAdmin();if(k=="inicio")maybeShowAnn()}};$("#v").addEventListener("click",()=>{$("#mn").hidden=true});
 const chg=a=>(a.p/a.day-1)*100;
-const list=arr=>`<div class="sc"><table><tr><th>Ativo</th><th>Preço</th><th>Var.</th></tr>${arr.map(a=>`<tr class="l" data-s="${a.s}"><td><b>${a.s}</b> <span class="m">${a.n}</span></td><td class="num">${fmt(a.p)}</td><td class="num ${chg(a)>=0?"up":"dn"}">${pc(chg(a))}</td></tr>`).join("")}</table></div>`;
+const list=arr=>`<div class="sc"><table><tr><th>Ativo</th><th>Preço</th><th>Var.</th></tr>${arr.map(a=>`<tr class="l" data-s="${a.s}"><td><i class="av" style="--h:${[...a.s].reduce((t,c)=>t+c.charCodeAt(0),0)*37%360}">${a.s.slice(0,2)}</i><b>${a.s}</b> <span class="m">${a.n}</span></td><td class="num">${fmt(a.p)}</td><td class="num ${chg(a)>=0?"up":"dn"}">${pc(chg(a))}</td></tr>`).join("")}</table></div>`;
 let RK=[];function ranking(){const r=RK.filter(x=>x.id!=UID).map(x=>({n:x.username,e:+x.equity,b:+x.base}));r.push({n:U+" (você)",e:eq(),b:S.base,me:1});return r.sort((a,b)=>b.e-a.e).slice(0,50)}
 async function loadRk(){if(!sb)return;try{const{data}=await sb.from("players").select("id,username,equity,base,hl_wins,hl_total").order("equity",{ascending:false}).limit(50);if(data){RK=data;if(tab=="rank")go()}}catch(e){}}
-function go(){hideAppKeyboard();document.querySelectorAll("header [data-k]").forEach(b=>b.classList.toggle("on",b.dataset.k==tab));$("#mb").classList.toggle("on",!MAIN.includes(tab));
+function go(){document.querySelectorAll("header [data-k]").forEach(b=>b.classList.toggle("on",b.dataset.k==tab));$("#mb").classList.toggle("on",!MAIN.includes(tab));
 const v=$("#v");const e=eq(),pl=e-S.base;v.classList.remove("in");void v.offsetWidth;v.classList.add("in");bal();
 if(tab=="inicio"){const s=[...A].sort((a,b)=>chg(b)-chg(a));
 v.innerHTML=`<div class="grid"><div class="box"><h3>Patrimônio</h3><div class="big num">${brl(e)}</div></div><div class="box"><h3>Saldo</h3><div class="big num">${brl(S.cash)}</div></div><div class="box"><h3>Lucro/prejuízo</h3><div class="big num ${pl>=0?"up":"dn"}">${brl(pl)}</div></div><div class="box"><h3>Rentabilidade</h3><div class="big num ${pl>=0?"up":"dn"}">${pc(pl/(S.base||1)*100)}</div></div></div>
@@ -140,9 +170,8 @@ else if(tab=="cash"){v.innerHTML=`<div class="cash-card"><div class="eyebrow" st
 
 else if(tab=="rank"){v.innerHTML=`<p class="m">Ranking geral dos jogadores (patrimônio fictício, atualizado a cada 30 segundos).</p><div class="sc"><table><tr><th>#</th><th>Jogador</th><th>Patrimônio</th><th>Rentab.</th></tr>${ranking().map((r,i)=>`<tr ${r.me?'style="background:var(--s2)"':""}><td>${i+1}</td><td>${r.n}</td><td class="num">${brl(r.e)}</td><td class="num ${r.e>=r.b?"up":"dn"}">${pc((r.e/(r.b||1)-1)*100)}</td></tr>`).join("")}</table></div>`}
 else if(tab=="hl"){hl()}else if(tab=="admin"){admin()}
-else{v.innerHTML=`<div class="box" style="margin-bottom:14px"><div class="eyebrow">RECOMPENSA ESPECIAL</div><h3 style="margin:8px 0">Resgatar código</h3><p class="m">Digite um código promocional para receber créditos no seu saldo.</p><div class="row"><input id="promo_code_input" maxlength="32" placeholder="Ex.: BOLSA100" autocomplete="off" autocapitalize="characters" style="flex:1;min-width:0"><button class="btn buy" id="promo_redeem">Resgatar</button></div><p class="m" style="font-size:12px;margin-bottom:0">Cada código pode ser resgatado uma única vez por conta.</p></div><div class="box"><h3>Jogador</h3><div class="big">@${U}</div><p class="m">${S.tx.length} operações · conta criada em ${new Date(S.created||Date.now()).toLocaleDateString("pt-BR")}. Dados salvos na sua conta.</p><div class="row"><button class="btn ghost" id="lo">Sair da conta</button><button class="btn sell" id="rs">Reiniciar conta</button></div></div>`;
-$("#lo").onclick=logout;$("#rs").onclick=()=>{if(confirm("Apagar o progresso e recomeçar com o bônus inicial?")){S=newState(S.base);S.name=U;save();go()}};
-const promoInput=$("#promo_code_input");$("#promo_redeem").onclick=redeemPromoCode; } }
+else{v.innerHTML=`<div class="box"><h3>Jogador</h3><div class="big">@${U}</div><p class="m">${S.tx.length} operações · conta criada em ${new Date(S.created||Date.now()).toLocaleDateString("pt-BR")}. Dados salvos na sua conta.</p><div class="row"><button class="btn ghost" id="lo">Sair da conta</button><button class="btn sell" id="rs">Reiniciar conta</button></div></div>`;
+$("#lo").onclick=logout;$("#rs").onclick=()=>{if(confirm("Apagar o progresso e recomeçar com o bônus inicial?")){S=newState(S.base);S.name=U;save();go()}}}}
 const dt=(t,c,o)=>`<details class="dt"${o?" open":""}><summary>${t}</summary>${c}</details>`;
 const txs=n=>S.tx.length?`<div class="sc"><table><tr><th>Operação</th><th>Qtd</th><th>Preço</th><th>Resultado</th></tr>${S.tx.slice(-n).reverse().map(t=>`<tr><td>${t.t=="C"?"Compra":"Venda"} ${t.s}</td><td class="num">${t.q}</td><td class="num">${fmt(t.p)}</td><td class="num ${t.r>=0?"up":"dn"}">${t.t=="V"?brl(t.r):"—"}</td></tr>`).join("")}</table></div>`:`<p class="m">Nenhuma operação ainda.</p>`;
 let TK=0;function cs(a){const f=TF[tf][1],o=[],h=a.h;for(let i=(f-TK%f)%f;i<h.length;i+=f){const g=h.slice(i,i+f);o.push({o:g[0].o,c:g[g.length-1].c,h:Math.max(...g.map(x=>x.h)),l:Math.min(...g.map(x=>x.l)),v:g.reduce((t,x)=>t+x.v,0)})}return o.slice(-N)}
@@ -205,7 +234,7 @@ const newState=b=>({name:"",cash:b,base:b,created:Date.now(),pos:{},tx:[],xp:0,d
 const tr=m=>/Invalid login/i.test(m)?"E-mail ou senha incorretos":/already (been )?registered/i.test(m)?"Esse e-mail já está cadastrado":/not confirmed/i.test(m)?"Confirme seu e-mail antes de entrar":/rate limit|too many/i.test(m)?"Muitas tentativas. Aguarde um pouco.":/Password should/i.test(m)?"Senha muito fraca (mínimo 6 caracteres)":"Erro: "+m;
 let fails=0,lock=0,REC=/type=recovery/.test(location.hash);
 function clearUser(){U=null;UID=null;S=newState(0);RK=[];isAdmin=false;ANN=[];shownAnn=new Set();bal();renderMenu()}
-function enter(first){hideAppKeyboard();$("#au").hidden=true;tab="inicio";renderMenu();go();loadRk();loadAnn();if(first)welcome()}
+function enter(first){$("#au").hidden=true;tab="inicio";renderMenu();go();loadRk();loadAnn();if(first)welcome()}
 async function loadSession(){const{data:{user}}=await sb.auth.getUser();if(!user)return"Sessão expirada. Entre novamente.";
 const[p,g]=await Promise.all([sb.from("players").select("username,base,suspended").eq("id",user.id).single(),sb.from("game_state").select("state").eq("user_id",user.id).single()]);
 if(p.error||g.error){await sb.auth.signOut();return"Não foi possível carregar sua conta. Tente de novo."}
@@ -214,9 +243,7 @@ const st=g.data.state,first=!(st&&st.cash!==undefined);UID=user.id;U=p.data.user
 if(first)await push();enter(first);return true}
 async function logout(){await push();if(sb)await sb.auth.signOut();clearUser();showAuth("in")}
 function welcome(){const d=$("#dlg");d.innerHTML=`<h3 style="margin-top:0">Bem-vindo, ${U}!</h3><p>Seu bônus de boas-vindas:</p><div class="big num up" style="font-size:34px">${brl(S.base)}</div><p class="m">Dinheiro fictício. Invista e faça crescer, mas lembre: dá para ganhar e dá para perder.</p><button class="btn buy" id="wk" style="width:100%">Começar</button>`;d.show();$("#wk").onclick=()=>d.close()}
-function hideAppKeyboard(){}
-
-function showAuth(m="in",msg="",ok){hideAppKeyboard();const e=$("#au");e.hidden=false;
+function showAuth(m="in",msg="",ok){const e=$("#au");e.hidden=false;
 const head=m=="in"||m=="up"?`<div class="row tf" style="justify-content:center"><button class="btn ghost ${m=="in"?"on":""}" data-au="in">Entrar</button><button class="btn ghost ${m=="up"?"on":""}" data-au="up">Criar conta</button></div>`:`<p class="m" style="text-align:center">${m=="fg"?"Informe seu e-mail para receber o link de recuperação.":"Defina sua nova senha."}</p>`;
 e.innerHTML=`<div class="box ac"><h1 style="text-align:center;font-size:24px">BOLSA<span>PLAY</span></h1>${head}
 ${m=="up"?`<div class="row"><input id="un" placeholder="Usuário (3 a 16: letras, números, _ ou .)" autocomplete="username" autocapitalize="none"></div>`:""}
@@ -242,18 +269,24 @@ async function doLogin(){const em=$("#em").value.trim(),p=$("#pw").value;if(!sb)
 const{error}=await sb.auth.signInWithPassword({email:em,password:p});if(error){if(++fails>=5){lock=Date.now()+30000;fails=0}return err(tr(error.message))}fails=0;const r=await loadSession();if(r!==true)err(r)}
 async function doForgot(){const em=$("#em").value.trim();if(!mail(em))return err("Informe um e-mail válido");const{error}=await sb.auth.resetPasswordForEmail(em,{redirectTo:location.origin});if(error)return err(tr(error.message));showAuth("in","Se o e-mail existir, enviamos o link de recuperação.",1)}
 async function doRec(){const p=$("#pw").value;if(p.length<6)return err("A senha precisa ter 6 caracteres ou mais");if(p!==$("#pw2").value)return err("As senhas não conferem");const{error}=await sb.auth.updateUser({password:p});if(error)return err(tr(error.message));REC=false;history.replaceState(null,"",location.pathname);const r=await loadSession();if(r!==true)showAuth("in",r)}
-async function loadAdmin(){if(!isAdmin||!sb)return;const[u,a,l,c]=await Promise.all([sb.rpc("admin_list_players"),sb.from("announcements").select("*").order("id",{ascending:false}),sb.rpc("admin_list_logs"),sb.rpc("admin_list_promo_codes")]);ADM.users=u.data||[];ADM.ann=a.data||[];ADM.logs=l.data||[];ADM.codes=c.data||[];if(u.error||a.error||l.error||c.error)toast("Algumas informações administrativas não puderam ser carregadas");if(tab=="admin")go()}
+async function loadAdmin(){if(!isAdmin||!sb)return;const[u,a,l]=await Promise.all([sb.rpc("admin_list_players"),sb.from("announcements").select("*").order("id",{ascending:false}),sb.rpc("admin_list_logs")]);ADM.users=u.data||[];ADM.ann=a.data||[];ADM.logs=l.data||[];if(u.error||a.error||l.error)toast("Algumas informações administrativas não puderam ser carregadas");if(tab=="admin")go()}
 function admin(){if(!isAdmin){tab="inicio";return go()}
 const active=ADM.users.filter(p=>!p.suspended).length,suspended=ADM.users.length-active,total=ADM.users.reduce((t,p)=>t+(+p.equity||0),0),published=ADM.ann.filter(a=>a.active).length;
-const tabs=[["overview","Visão geral"],["users","Jogadores"],["ann","Avisos e anúncios"],["logs","Auditoria"],["codes","CÓDIGOS"],["updates","Atualizar aplicativo"]];
+const tabs=[["overview","Visão geral"],["users","Jogadores"],["ann","Avisos e anúncios"],["logs","Auditoria"],["app","Atualizar app"]];
 const overview=`<div class="grid"><div class="box admin-stat"><h3>Jogadores cadastrados</h3><div class="big">${ADM.users.length}</div><span class="m">Contas registradas</span></div><div class="box admin-stat"><h3>Jogadores ativos</h3><div class="big up">${active}</div><span class="m">Com acesso liberado</span></div><div class="box admin-stat"><h3>Suspensos</h3><div class="big dn">${suspended}</div><span class="m">Contas bloqueadas</span></div><div class="box admin-stat"><h3>Anúncios ativos</h3><div class="big">${published}</div><span class="m">Avisos publicados</span></div><div class="box admin-stat"><h3>Patrimônio somado</h3><div class="big num">${brl(total)}</div><span class="m">Valores fictícios dos jogadores</span></div></div><div class="box" style="margin-top:12px"><b>Atividade administrativa</b><p class="m" style="margin-bottom:0">${ADM.logs.length} registros de auditoria disponíveis. Use as abas para gerenciar contas, publicações e consultar alterações.</p></div>`;
 const usersHtml=`<div class="row" style="justify-content:space-between"><input id="adm_search" class="admin-search" placeholder="Buscar por usuário ou ID..."><span class="m">${ADM.users.length} contas</span></div><div class="sc"><table><thead><tr><th>Usuário</th><th>Patrimônio</th><th>Status</th><th>Ações</th></tr></thead><tbody id="adm_user_rows">${ADM.users.map(p=>`<tr data-user-search="${String(p.username||"").toLowerCase()} ${p.id}"><td><b>@${esc(p.username||"sem-nome")}</b><div class="m" style="font-size:10px">${p.id}</div></td><td class="num">${brl(+p.equity||0)}</td><td>${p.suspended?'<span class="tag" style="color:var(--r);border-color:var(--r)">Suspenso</span>':'<span class="tag" style="color:var(--g);border-color:var(--g)">Ativo</span>'}</td><td><div class="row" style="margin:0;flex-wrap:nowrap"><button class="btn ghost" style="padding:7px 9px" data-adm="bal:${p.id}">Saldo</button><button class="btn ${p.suspended?"buy":"sell"}" style="padding:7px 9px" data-adm="susp:${p.id}:${!p.suspended}">${p.suspended?"Reativar":"Suspender"}</button></div></td></tr>`).join("")}</tbody></table></div>`;
 const annHtml=`<button class="btn buy" style="margin-bottom:12px" data-adm="new">＋ Criar aviso ou anúncio</button>${ADM.ann.length?ADM.ann.map(a=>`<div class="box" style="margin-bottom:9px"><div class="row" style="justify-content:space-between;margin-top:0"><b>${a.kind=="aviso"?"Aviso":"Anúncio"}</b>${a.active?'<span class="tag" style="color:var(--g);border-color:var(--g)">Ativo</span>':'<span class="tag">Pausado</span>'}</div><div>${esc(a.title||"(sem título)")}</div><div class="m" style="font-size:13px">${esc((a.body||"").slice(0,100))}</div><div class="row" style="margin-bottom:0"><button class="btn ghost" style="padding:7px 10px" data-adm="edit:${a.id}">Editar</button><button class="btn ghost" style="padding:7px 10px" data-adm="toggle:${a.id}:${!a.active}">${a.active?"Pausar":"Ativar"}</button><button class="btn sell" style="padding:7px 10px" data-adm="del:${a.id}">Excluir</button></div></div>`).join(""):`<p class="m">Nenhum aviso ou anúncio cadastrado.</p>`}`;
 const logsHtml=ADM.logs.length?`<div class="sc"><table><tr><th>Data</th><th>Ação</th><th>Jogador</th><th>Motivo</th></tr>${ADM.logs.map(x=>`<tr><td>${new Date(x.created_at).toLocaleString("pt-BR")}</td><td>${esc(x.action)}</td><td>${esc(x.target_user||"—")}</td><td>${esc(x.reason||"—")}</td></tr>`).join("")}</table></div>`:`<p class="m">Nenhuma ação administrativa registrada ainda.</p>`;
-const codesHtml=`<div class="box" style="max-width:760px;margin-bottom:14px"><div class="tag">GERENCIAMENTO DE CÓDIGOS</div><h3 style="margin-top:12px">Criar código promocional</h3><div class="row"><input id="promo_admin_code" maxlength="32" placeholder="Nome do código (ex.: BOLSA100)" style="flex:1;min-width:180px" autocapitalize="characters"></div><div class="row"><input id="promo_admin_amount" type="number" min="0.01" max="1000000" step="0.01" placeholder="Créditos que vai dar" style="flex:1;min-width:150px"><button class="btn buy" data-adm="code-create">＋ Criar código</button></div><p class="m" style="font-size:12px;margin-bottom:0">Use letras, números, hífen ou underline. O valor será adicionado ao saldo fictício do jogador.</p></div><h3>Códigos cadastrados (${ADM.codes.length})</h3>${ADM.codes.length?ADM.codes.map(c=>`<div class="box" style="margin-bottom:9px"><div class="row" style="justify-content:space-between;margin:0"><b style="font-size:18px;letter-spacing:1px">${esc(c.code)}</b><span class="tag" style="${c.active?"color:var(--g);border-color:var(--g)":""}">${c.active?"Ativo":"Desativado"}</span></div><div class="big num" style="color:var(--a);margin:7px 0">+ ${brl(+c.amount)}</div><div class="row" style="margin-bottom:0"><button class="btn ghost" style="padding:8px 12px" data-adm="code-toggle:${c.id}:${!c.active}">${c.active?"Desativar":"Ativar"}</button><button class="btn sell" style="padding:8px 12px" data-adm="code-delete:${c.id}">Excluir</button></div></div>`).join(""):`<p class="m">Nenhum código criado ainda.</p>`}`;
-const updatesHtml=`<div class="box" style="max-width:760px"><div class="tag">PUBLICAÇÃO SEGURA</div><h3 style="margin-top:12px;color:var(--t)">Enviar nova versão do BOLSA PLAY</h3><p class="m">Selecione o arquivo HTML atualizado. A publicação substituirá o index.html do aplicativo no GitHub.</p><label for="app_update_file" style="display:block;margin:14px 0 7px;font-weight:700">Arquivo do aplicativo (.html)</label><input id="app_update_file" type="file" accept=".html,text/html" style="width:100%"><p id="app_update_info" class="m" style="font-size:12px">Nenhum arquivo selecionado. Limite: 1,5 MB.</p><div class="row"><button class="btn buy" data-adm="publish" style="flex:1">↑ Publicar atualização</button></div><p class="m" style="font-size:12px;margin-bottom:0">Apenas a conta administradora pode publicar. Não envie arquivos que não sejam o HTML principal do BOLSA PLAY.</p></div>`;
-$("#v").innerHTML=`<div class="admin-hero"><div class="eyebrow">Área restrita · BOLSA PLAY</div><h2 style="font-size:25px;margin:7px 0">Central administrativa</h2><p class="m" style="margin:0">Gerencie usuários, publicações e acompanhe as ações feitas no painel.</p></div><div class="admin-tabs">${tabs.map(([k,l])=>`<button class="btn ghost ${admSub==k?"on":""}" data-admsub="${k}">${l}</button>`).join("")}<button class="btn ghost" data-adm="refresh">↻ Atualizar</button></div>${admSub=="overview"?overview:admSub=="users"?usersHtml:admSub=="ann"?annHtml:admSub=="codes"?codesHtml:admSub=="updates"?updatesHtml:logsHtml}`;
-const updateFile=$("#app_update_file");if(updateFile)updateFile.onchange=()=>{const f=updateFile.files?.[0];const info=$("#app_update_info");if(info)info.textContent=f?`${f.name} · ${(f.size/1024).toFixed(1)} KB`+ (f.size>1.5*1024*1024?" · Arquivo muito grande":""):"Nenhum arquivo selecionado. Limite: 1,5 MB."};
+const gh=(()=>{try{return JSON.parse(localStorage.getItem("bp_gh")||"{}")}catch(e){return{}}})();
+const appHtml=`<div class="box"><div class="eyebrow">Publicação</div><h2 style="margin:6px 0 6px">Atualizar o aplicativo</h2><p class="m" style="margin-top:0">Escolha o novo <b>index.html</b> e publique direto no GitHub, sem sair do painel. O site atualiza em cerca de 1 a 2 minutos.</p>
+<div class="row"><input id="gh_repo" placeholder="Repositório (usuario/nome-do-repo)" value="${esc(gh.repo||"")}" style="flex:2;min-width:200px"><input id="gh_br" placeholder="Branch" value="${esc(gh.br||"main")}" style="flex:1;min-width:100px"><input id="gh_path" placeholder="Arquivo" value="${esc(gh.path||"index.html")}" style="flex:1;min-width:120px"></div>
+<div class="row"><input id="gh_tk" type="password" placeholder="Token do GitHub" value="${esc(gh.tk||"")}" autocomplete="off" style="flex:1"></div>
+<label class="m" style="font-size:13px;display:block"><input type="checkbox" id="gh_rm" ${gh.tk?"checked":""} style="width:auto"> Lembrar o token neste aparelho</label>
+<div class="row"><input id="gh_file" type="file" accept=".html,text/html" style="flex:1"></div>
+<p id="gh_st" class="m" style="min-height:22px"></p>
+<div class="row"><button class="btn buy" id="gh_go" data-adm="deploy" style="flex:1">Publicar atualização</button><button class="btn ghost" data-adm="backup">Baixar cópia atual</button></div></div>
+${dt("Como criar o token (uma vez só)",`<p class="m">GitHub → Settings → Developer settings → Fine-grained tokens → Generate new token. Escolha <b>somente este repositório</b> e a permissão <b>Contents: Read and write</b>. O token fica só no seu aparelho, nunca no código do app. Antes de publicar, use "Baixar cópia atual" como backup.</p>`)}`;
+$("#v").innerHTML=`<div class="admin-hero"><div class="eyebrow">Área restrita · BOLSA PLAY</div><h2 style="font-size:25px;margin:7px 0">Central administrativa</h2><p class="m" style="margin:0">Gerencie usuários, publicações e acompanhe as ações feitas no painel.</p></div><div class="admin-tabs">${tabs.map(([k,l])=>`<button class="btn ghost ${admSub==k?"on":""}" data-admsub="${k}">${l}</button>`).join("")}<button class="btn ghost" data-adm="refresh">↻ Atualizar</button></div>${admSub=="overview"?overview:admSub=="users"?usersHtml:admSub=="ann"?annHtml:admSub=="logs"?logsHtml:appHtml}`;
 const search=$("#adm_search");if(search)search.oninput=()=>{const q=search.value.toLowerCase();document.querySelectorAll("[data-user-search]").forEach(r=>r.hidden=!r.dataset.userSearch.includes(q))}}
 function esc(v){return String(v??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]))}
 async function startCashAd(){
@@ -302,11 +335,6 @@ async function startCashAd(){
   }
  });
 }
-async function admCreatePromoCode(){const code=$("#promo_admin_code")?.value.trim().toUpperCase(),amount=Number($("#promo_admin_amount")?.value);if(!/^[A-Z0-9_-]{3,32}$/.test(code||""))return toast("Use de 3 a 32 caracteres: letras, números, _ ou -.");if(!Number.isFinite(amount)||amount<=0||amount>1000000)return toast("Informe um valor válido maior que zero.");const{error}=await sb.rpc("admin_create_promo_code",{p_code:code,p_amount:amount});if(error)return toast(/duplicate|unique/i.test(error.message)?"Esse código já existe.":"Erro ao criar: "+error.message);toast("Código criado com sucesso!");loadAdmin()}
-async function admTogglePromoCode(id,active){const{error}=await sb.rpc("admin_set_promo_code_active",{p_id:Number(id),p_active:active});if(error)return toast("Erro: "+error.message);toast(active?"Código ativado":"Código desativado");loadAdmin()}
-async function admDeletePromoCode(id){if(!confirm("Excluir este código? Os resgates já feitos não serão devolvidos."))return;const{error}=await sb.rpc("admin_delete_promo_code",{p_id:Number(id)});if(error)return toast("Erro ao excluir: "+error.message);toast("Código excluído");loadAdmin()}
-async function redeemPromoCode(){const input=$("#promo_code_input"),code=input?.value.trim().toUpperCase();if(!code)return toast("Digite um código primeiro.");const button=$("#promo_redeem");if(button){button.disabled=true;button.textContent="Verificando..."}try{const{data,error}=await sb.rpc("redeem_promo_code",{p_code:code});if(error)throw error;S.cash=Number(data.new_balance);clearTimeout(sv_);await push();toast("Código resgatado! Você recebeu "+brl(Number(data.amount))+" em créditos.");go()}catch(e){const msg=e.message||"Não foi possível resgatar o código.";toast(/already redeemed/i.test(msg)?"Você já resgatou esse código.":/not found|inactive/i.test(msg)?"Código inválido ou desativado.":/suspended/i.test(msg)?"Sua conta está suspensa.":"Erro ao resgatar: "+msg)}finally{if(button){button.disabled=false;button.textContent="Resgatar"}}}
-
 async function admSuspend(id,val){const reason=val?(prompt("Motivo da suspensão (opcional):")||null):null;const{error}=await sb.rpc("admin_set_suspended",{target:id,val,reason});if(error)return toast("Erro: "+error.message);toast(val?"Jogador suspenso":"Jogador reativado");loadAdmin()}
 function admBalPrompt(id){const v=prompt("Valor a adicionar (use negativo para remover):");if(v===null)return;const n=+v;if(!n)return toast("Valor inválido");const reason=prompt("Motivo (opcional):")||null;admAdjust(id,n,reason)}
 async function admAdjust(id,delta,reason){const{error}=await sb.rpc("admin_adjust_cash",{target:id,delta,reason});if(error)return toast("Erro: "+error.message);toast("Saldo ajustado");loadAdmin()}
@@ -325,26 +353,23 @@ d.show();$("#e_cancel").onclick=()=>d.close();
 $("#e_save").onclick=async()=>{const imageUrl=$("#e_img").value.trim(),linkUrl=$("#e_link").value.trim();if(imageUrl&&!/^https:\/\//i.test(imageUrl))return $("#e_err").textContent="A imagem precisa usar uma URL HTTPS.";if(linkUrl&&!/^https:\/\//i.test(linkUrl))return $("#e_err").textContent="O link precisa usar HTTPS.";const row={kind,title:$("#e_title").value.trim()||null,body:$("#e_body").value.trim()||null,image_url:imageUrl||null,link_url:linkUrl||null,button_text:$("#e_btn").value.trim()||null,active:true};
 const q=isNew?sb.from("announcements").insert(row):sb.from("announcements").update(row).eq("id",a.id);
 const{error}=await q;if(error)return $("#e_err").textContent="Erro: "+error.message;d.close();toast("Publicado");loadAdmin()}}
+async function admBackup(){try{const t=await(await fetch(location.href.split("#")[0],{cache:"no-store"})).text(),a=document.createElement("a");a.href=URL.createObjectURL(new Blob([t],{type:"text/html"}));a.download="index-backup-"+new Date().toISOString().slice(0,10)+".html";a.click()}catch(e){toast("Não foi possível baixar a cópia.")}}
+async function admDeploy(){const st=$("#gh_st"),say=(m,c)=>{st.className=c||"m";st.textContent=m},f=$("#gh_file").files[0],repo=$("#gh_repo").value.trim(),br=$("#gh_br").value.trim()||"main",path=$("#gh_path").value.trim()||"index.html",tk=$("#gh_tk").value.trim();
+if(!/^[\w.-]+\/[\w.-]+$/.test(repo))return say("Informe o repositório no formato usuario/repositorio.","dn");if(!tk)return say("Cole o token do GitHub.","dn");if(!f)return say("Escolha o arquivo index.html.","dn");
+const txt=await f.text();if(!/<html[\s>]/i.test(txt)||!/<\/html>/i.test(txt))return say("O arquivo não parece um HTML completo. Envio cancelado.","dn");
+if(!txt.includes("ca-pub-8308389037082835")&&!confirm("Este arquivo NÃO tem o script do Google AdSense. Enviar mesmo assim?"))return say("Envio cancelado.");
+if(!confirm("Publicar "+f.name+" ("+Math.round(f.size/1024)+" KB) em "+repo+"? O app de todos os jogadores será atualizado."))return;
+try{localStorage.setItem("bp_gh",JSON.stringify({repo,br,path,tk:$("#gh_rm").checked?tk:""}))}catch(e){}
+const b=$("#gh_go");b.disabled=true;say("Enviando...");const H={Authorization:"Bearer "+tk,Accept:"application/vnd.github+json"},u="https://api.github.com/repos/"+repo+"/contents/"+path.split("/").map(encodeURIComponent).join("/");
+try{const g=await fetch(u+"?ref="+encodeURIComponent(br),{headers:H});let sha;if(g.ok)sha=(await g.json()).sha;else if(g.status!=404)throw new Error(g.status==401||g.status==403?"token inválido ou sem permissão (Contents: Read and write).":"erro "+g.status+" ao consultar o repositório.");
+const r=await fetch(u,{method:"PUT",headers:{...H,"Content-Type":"application/json"},body:JSON.stringify({message:"Atualização pelo painel admin ("+new Date().toLocaleString("pt-BR")+")",content:btoa(unescape(encodeURIComponent(txt))),sha,branch:br})}),j=await r.json();if(!r.ok)throw new Error(j.message||"erro "+r.status);
+say("✓ Atualização enviada! Aguarde 1 a 2 minutos e recarregue a página para ver a nova versão.","up")}catch(e){say("Falha: "+e.message,"dn")}b.disabled=false}
 async function admToggleAnn(id,val){const{error}=await sb.from("announcements").update({active:val}).eq("id",id);if(error)return toast("Erro: "+error.message);loadAdmin()}
 async function admDelAnn(id){if(!confirm("Excluir este item?"))return;const{error}=await sb.from("announcements").delete().eq("id",id);if(error)return toast("Erro: "+error.message);loadAdmin()}
 $("#v").addEventListener("click",e=>{const s=e.target.closest("[data-admsub]");if(s){admSub=s.dataset.admsub;go();return}
 const b=e.target.closest("[data-adm]");if(!b)return;const[k,p1,p2]=b.dataset.adm.split(":");
-if(k=="susp")admSuspend(p1,p2=="true");else if(k=="bal")admBalPrompt(p1);else if(k=="new")admEditAnn(null);else if(k=="refresh")loadAdmin();else if(k=="publish")publishAppUpdate();else if(k=="code-create")admCreatePromoCode();else if(k=="code-toggle")admTogglePromoCode(p1,p2=="true");else if(k=="code-delete")admDeletePromoCode(p1);
+if(k=="susp")admSuspend(p1,p2=="true");else if(k=="bal")admBalPrompt(p1);else if(k=="new")admEditAnn(null);else if(k=="refresh")loadAdmin();else if(k=="deploy")admDeploy();else if(k=="backup")admBackup();
 else if(k=="edit")admEditAnn(ADM.ann.find(x=>x.id==p1));else if(k=="toggle")admToggleAnn(p1,p2=="true");else if(k=="del")admDelAnn(p1)});
-async function publishAppUpdate(){
- if(!isAdmin||!sb)return toast("Apenas o administrador pode publicar.");
- const input=$("#app_update_file"),file=input?.files?.[0];
- if(!file)return toast("Selecione o arquivo HTML primeiro.");
- if(!/\.html?$/i.test(file.name)||file.size<50||file.size>1.5*1024*1024)return toast("Arquivo inválido. Use um HTML de até 1,5 MB.");
- if(!confirm("Tem certeza? Esta ação substituirá a versão atual do BOLSA PLAY no GitHub."))return;
- const btn=$("[data-adm=publish]");if(btn){btn.disabled=true;btn.textContent="Publicando..."}
- try{const html=await file.text();if(!/<html[\s>]/i.test(html)||!/<\/html>/i.test(html))throw new Error("O arquivo não parece ser um documento HTML completo.");
- const{data,error}=await sb.functions.invoke("publish-app-update",{body:{html}});
- if(error)throw error;if(!data?.success)throw new Error(data?.error||"O servidor não confirmou a publicação.");
- toast("Atualização publicada no GitHub!");const info=$("#app_update_info");if(info)info.textContent="Publicado com sucesso: "+(data.commit||"commit confirmado");
- }catch(e){toast("Falha ao publicar: "+(e.message||"erro desconhecido"));}
- finally{if(btn){btn.disabled=false;btn.textContent="↑ Publicar atualização"}}
-}
 async function boot(){$("#lg").onclick=logout;if(!sb)return showAuth("in","Não foi possível conectar ao servidor. Recarregue a página.");
 sb.auth.onAuthStateChange(ev=>{if(ev=="PASSWORD_RECOVERY"){REC=true;showAuth("rec")}else if(ev=="SIGNED_OUT"&&U){clearUser();showAuth("in")}});
 if(REC)return showAuth("rec");const{data:{session}}=await sb.auth.getSession();if(session&&!REC){const r=await loadSession();if(r!==true)showAuth("in",r)}else if(!REC)showAuth("in")}
