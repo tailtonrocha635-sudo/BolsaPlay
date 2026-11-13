@@ -1,0 +1,8 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "app.vercel.bolsaplay_delta.twa",
+    "sha256_cert_fingerprints": ["5A:6A:D6:2B:C2:FB:DB:2C:08:93:48:22:85:0F:8D:2E:1A:24:8D:0F:09:11:17:DD:A3:D6:B4:94:41:CD:E7:47"]
+  }
+}]
